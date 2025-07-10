@@ -1,0 +1,11 @@
+
+# pixi environments
+.pixi
+*.egg-info
+
+*.pt
+*.npz
+
+__pycache__
+
+src/medsam2_inference/infer_3D_512_nii_CTLesion_demo.py
