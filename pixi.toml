@@ -6,6 +6,7 @@ platforms = ["linux-64"]
 version = "0.1.0"
 
 [tasks]
+download-weights = "./MedSAM2/download.sh"
 
 [dependencies]
 python = "==3.12"
@@ -13,7 +14,7 @@ pytorch-cuda = "==12.4"
 
 
 [pypi-dependencies]
-MedSAM2 = { path = "src/medsam2_runner/MedSAM2", editable = true, extras = ["dev"] }
+MedSAM2 = { path = "MedSAM2", editable = true, extras = ["dev"] }
 simpleitk = ">=2.5.2, <3"
 pydantic = ">=2.11.7, <3"
 
