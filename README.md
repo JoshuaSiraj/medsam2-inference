@@ -10,6 +10,11 @@ git clone https://github.com/JoshuaSiraj/medsam2_inference.git
 cd medsam2_inference
 ```
 
+Clone the MedSAM2 repository, while in the medsam2_inference directory:
+```bash
+git clone https://github.com/bowang-lab/MedSAM2.git
+```
+
 This project uses [Pixi](https://pixi.sh/dev/) to manage dependencies. Install it by following the instructions [here](https://pixi.sh/dev/installation/).
 
 Install the dependencies by running:
